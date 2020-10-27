@@ -55,7 +55,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
-                        Text('Find Your New Job', style: titleStyleWhite,)
+                        Text('Encontrar su nuevo trabajo', style: titleStyleWhite,)
                       ],
                     ),
                   ),
@@ -79,7 +79,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       Container(
                         margin: EdgeInsets.only(top: 40),
                         child: Text(
-                          "Explore New Opportunities",
+                          "Explorar Nuevas Oportunidades",
                           style: titileStyleBlack, 
                           ),
                       ),
@@ -99,14 +99,14 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
     );
   }
-  List<String> jobCategories = ["Sales", "Engineering", "Health", "Education", "Finance"];
+  List<String> jobCategories = ["Ventas", "Ingenieria", "Salud", "Educacion", "Finanzas"];
 
   Map jobCatToIcon = {
-    "Sales" : Icon(Icons.monetization_on, color: lightBlueIsh, size: 50,),
-    "Engineering" : Icon(Icons.settings, color: lightBlueIsh, size: 50),
-    "Health" : Icon(Icons.healing, color: lightBlueIsh, size: 50),
-    "Education" : Icon(Icons.search, color: lightBlueIsh, size: 50),
-    "Finance" : Icon(Icons.card_membership, color: lightBlueIsh, size: 50),
+    "Ventas" : Icon(Icons.monetization_on, color: lightBlueIsh, size: 50,),
+    "Ingenieria" : Icon(Icons.settings, color: lightBlueIsh, size: 50),
+    "Salud" : Icon(Icons.healing, color: lightBlueIsh, size: 50),
+    "Educacion" : Icon(Icons.search, color: lightBlueIsh, size: 50),
+    "Finanzas" : Icon(Icons.card_membership, color: lightBlueIsh, size: 50),
   };
 
   Widget getCategoryContainer(String categoryName) {
@@ -177,7 +177,7 @@ class _MyHomePageState extends State<MyHomePage> {
   List<Job> findJobs() {
     List<Job> jobs = [];
     for (int i = 0; i < 10; i++) {
-      jobs.add(new Job("Volvo", "Frontend Developer", 20000, "Remote", "Part time", new AssetImage("lib/assets/volvo.png")));
+      jobs.add(new Job("Volvo", "Desarrollador Frontend", 20000, "Remoto", "Medio Tiempo", new AssetImage("lib/assets/volvo.png")));
     }
     return jobs;
   }

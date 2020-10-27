@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 Color lightGreen = Color(0xFF95E08E);
 Color lightBlueIsh = Color(0xFF33BBB5);
 Color darkGreen = Color(0xFF00AA12);
-Color backgroundColor = Color(0xFFEFEEF5);
+Color backgroundColor = Color(0x64FE2E);
 
 TextStyle titleStyleWhite = new TextStyle(
   fontFamily: 'Helvetica', 
